@@ -5,7 +5,7 @@ jobs:
   branch-naming-rules:
     runs-on: ubuntu-latest
     steps:
-      - uses: deepakputhraya/action-branch-name@master
+      - uses: master
         with:
           allowed_prefixes: 'feature,stable,fix' # All branches should start with the given prefix
           ignore: master,develop # Ignore exactly matching branch names from convention
